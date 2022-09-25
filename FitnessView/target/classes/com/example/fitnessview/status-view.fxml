@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<GridPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="Controllers.StatusController">
+
+
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="SOMETIMES"/>
+        <RowConstraints percentHeight="20.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+
+    <Label stylesheets="@styles.css" text="Название" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="textField" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Button onAction="#onSaveClick" stylesheets="@styles.css" text="Сохранить" GridPane.columnIndex="0"
+            GridPane.rowIndex="1"/>
+    <Button onAction="#onCancelClick" stylesheets="@styles.css" text="Отмена" GridPane.columnIndex="1"
+            GridPane.rowIndex="1"/>
+</GridPane>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXTimePicker?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane prefHeight="450.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1"
+          fx:controller="Controllers.ClassController">
+
+
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0"/>
+        <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0"/>
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints percentHeight="15.0" vgrow="SOMETIMES"/>
+        <RowConstraints percentHeight="15.0" vgrow="SOMETIMES"/>
+        <RowConstraints percentHeight="15.0" vgrow="SOMETIMES"/>
+        <RowConstraints percentHeight="15.0" vgrow="SOMETIMES"/>
+        <RowConstraints percentHeight="30.0" vgrow="SOMETIMES"/>
+        <RowConstraints percentHeight="10.0" vgrow="SOMETIMES"/>
+    </rowConstraints>
+
+    <Label stylesheets="@styles.css" text="Название" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+    <TextField fx:id="textFieldName" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+    <Label stylesheets="@styles.css" text="Дата" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+    <JFXDatePicker fx:id="datePicker" defaultColor="#ef8d50" stylesheets="@styles.css" GridPane.columnIndex="1"
+                   GridPane.rowIndex="1"/>
+
+    <Label stylesheets="@styles.css" text="Время" GridPane.columnIndex="0" GridPane.rowIndex="2"/>
+    <JFXTimePicker fx:id="timePicker" defaultColor="#ef8d50" stylesheets="@styles.css" GridPane.columnIndex="1"
+                   GridPane.rowIndex="2"/>
+
+    <Label stylesheets="@styles.css" text="Тренер" GridPane.columnIndex="0" GridPane.rowIndex="3"/>
+    <ComboBox fx:id="comboBox" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <Label stylesheets="@styles.css" text="Статусы" GridPane.columnIndex="0" GridPane.rowIndex="4"/>
+    <ListView fx:id="listView" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="4"/>
+
+    <Button onAction="#onSaveClick" stylesheets="@styles.css" text="Сохранить" GridPane.columnIndex="0"
+            GridPane.rowIndex="5"/>
+    <Button onAction="#onCancelClick" stylesheets="@styles.css" text="Отмена" GridPane.columnIndex="1"
+            GridPane.rowIndex="5"/>
+</GridPane>

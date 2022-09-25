@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXDatePicker?>
+<?import com.jfoenix.controls.JFXToggleButton?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<GridPane prefHeight="650.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClientController">
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0" />
+        <ColumnConstraints hgrow="SOMETIMES" percentWidth="50.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints vgrow="SOMETIMES" />
+        <RowConstraints percentHeight="10.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+
+    <Label stylesheets="@styles.css" text="Имя" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+    <TextField fx:id="textFieldName" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+    <Label stylesheets="@styles.css" text="Фамилия" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+    <TextField fx:id="textFieldSurname" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+
+    <Label stylesheets="@styles.css" text="Дата рождения" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+    <JFXDatePicker fx:id="datePicker" defaultColor="#ef8d50" stylesheets="@styles.css" GridPane.columnIndex="1"
+                   GridPane.rowIndex="2"/>
+
+
+    <Label stylesheets="@styles.css" text="Заявка на тест" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+    <JFXToggleButton fx:id="toggleButton" stylesheets="@styles.css" toggleColor="#ef8d50" toggleLineColor="#b96246" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+
+    <Label stylesheets="@styles.css" text="Статус" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+    <ComboBox fx:id="comboBox" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+
+    <Label stylesheets="@styles.css" text="Номер телефона" GridPane.columnIndex="0" GridPane.rowIndex="5" />
+    <TextField fx:id="textFieldPhone" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+
+    <Label stylesheets="@styles.css" text="Логин" GridPane.columnIndex="0" GridPane.rowIndex="6" />
+    <TextField fx:id="textFieldLogin" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+    <Label stylesheets="@styles.css" text="Пароль" GridPane.columnIndex="0" GridPane.rowIndex="7" />
+    <TextField fx:id="textFieldPassword" stylesheets="@styles.css" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+    <Button onAction="#onSaveClick" stylesheets="@styles.css" text="Сохранить" GridPane.columnIndex="0" GridPane.rowIndex="8" />
+    <Button onAction="#onCancelClick" stylesheets="@styles.css" text="Отмена" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+</GridPane>

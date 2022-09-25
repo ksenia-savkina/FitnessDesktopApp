@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FitnessBusinessLogic/FitnessBusinessLogic.iml" filepath="$PROJECT_DIR$/FitnessBusinessLogic/FitnessBusinessLogic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FitnessDatabaseImplement/FitnessDatabaseImplement.iml" filepath="$PROJECT_DIR$/FitnessDatabaseImplement/FitnessDatabaseImplement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FitnessDesktopApp.iml" filepath="$PROJECT_DIR$/FitnessDesktopApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FitnessView/FitnessView.iml" filepath="$PROJECT_DIR$/FitnessView/FitnessView.iml" />
+    </modules>
+  </component>
+</project>
