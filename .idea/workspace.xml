@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04d09b31-916a-43b3-a793-a7e7834f3b55" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/qualit_plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_18_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_18_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/FitnessBusinessLogic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BindingModels/ClassBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BindingModels/ClientBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BindingModels/StatusBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BindingModels/TestResultBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BindingModels/TrainerBindingModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BusinessLogic/ClassLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BusinessLogic/ClientLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BusinessLogic/StatusLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BusinessLogic/TestResultLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/BusinessLogic/TrainerLogic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/Interfaces/IClassStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/Interfaces/IClientStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/Interfaces/IStatusStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/Interfaces/ITestResultStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/Interfaces/ITrainerStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/ViewModels/ClassViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/ViewModels/ClientViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/ViewModels/StatusViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/ViewModels/TestResultViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/com/ViewModels/TrainerViewModel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessBusinessLogic/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/FitnessDatabaseImplement.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/DbUtil/Database.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/Implements/ClassStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/Implements/ClientStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/Implements/StatusStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/Implements/TestResultStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/Implements/TrainerStorage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessDatabaseImplement/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/FitnessView.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FitnessView/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClassClientsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClassController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClassController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClassController$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClassController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClassesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClientController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClientController$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ClientsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ResultController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/ResultsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/StatusController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/StatusesController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/TrainerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/Controllers/TrainersController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/class-clients-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/class-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/classes-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/client-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/clients-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/main-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/result-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/results-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/status-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/statuses-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/trainer-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/com/example/fitnessview/trainers-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/img/icon32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FitnessView/target/classes/img/icon400.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2b4YXDme2FjO3d9f30NA9Fori7U" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04d09b31-916a-43b3-a793-a7e7834f3b55" name="Changes" comment="" />
+      <created>1705475855827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705475855827</updated>
+    </task>
+    <servers />
+  </component>
+</project>
